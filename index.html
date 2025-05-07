@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karolanne Lima | Desenvolvedora</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="foto-perfil">
+      <img src="src/WhatsApp Image 2025-05-05 at 08.57.47.jpeg" alt="Foto de Karolanne Lima" />
+    </div>
+    <div class="info-header">
+      <h1>Karolanne Lima</h1>
+      <p>Desenvolvedora Júnior | Full Stack & Engenharia de Dados</p>
+      <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#certificados">Certificados</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobre" class="container">
+    <h2>Sobre Mim</h2>
+    <p>Sou uma mente criativa em constante movimento. Apaixonada por programação, inovação e tudo o que envolve tecnologia, vivo para transformar ideias em soluções reais.
+
+    Sou formada em Engenharia de Dados e atualmente iniciando o curso Análise e Desenvolvimento de Sistemas, sempre buscando expandir meus conhecimentos. Além disso, sou nerd assumida, fã de animes, games e o bom e velho ROCK AND ROLL, com um vasto conhecimento sobre jogos e desenvolvimento.
+
+    Adoro desenhar, tenho um carinho enorme pelos animais e acredito que a criatividade se alimenta da curiosidade. Teimosa no melhor sentido da palavra, sou dedicada, focada e não descanso até encontrar a melhor solução. Ao mesmo tempo, sei ouvir, aprender com o outro e colaborar — trabalhar em equipe é uma das minhas maiores forças.
+
+    Seja escrevendo códigos, roteiros ou desenhando mundos imaginários, minha missão é criar experiências únicas que unam tecnologia, emoção e propósito.</p>
+  </section>
+
+  <section id="filtros">
+    <h2>Filtrar Projetos</h2>
+    <div class="filtros">
+      <button onclick="filtrarProjetos('todos')">Todos</button>
+      <button onclick="filtrarProjetos('APIs')">APIs</button>
+      <button onclick="filtrarProjetos('Projetos')">Projetos</button>
+    </div>
+  </section>
+
+  <section id="projetos" class="projetos container">
+    <div class="APIs card">
+      <img src="src/Animca 2.gif" alt="Projeto em GIF">
+      <h3>API com Telegram Bot</h3>
+      <p>Bot em Python que envia mensagens e imagens para grupos no Telegram com agendamento e integração.</p>
+      <a href="https://github.com/lkaroolanne/API_TELEGRAM.git" target="_blank">Ver no GitHub</a>
+    </div>
+    <div class="APIs card">
+      <img src="src/1.gif" alt="Projeto em GIF">
+      <h3>API WhatsApp Business</h3>
+      <p>Automação de mensagens usando a API Oficial do WhatsApp com Node.js e templates personalizados.</p>
+      <a href="https://github.com/lkaroolanne/API-OF-WTPS.git" target="_blank">Ver no GitHub</a>
+    </div>
+    <div class="Projetos card">
+      <img src="src/fff.gif" alt="Projeto em GIF">
+      <h3>Projetos em Geral</h3>
+      <p>Repositório com vários sites e aplicações web: Mario LP, Pokédex, Marvel, petshop, oficina, e-learning e mais.</p>
+      <a href="https://github.com/lkaroolanne/Projetos.git" target="_blank">Ver no GitHub</a>
+    </div>
+  </section>
+  
+
+  <section id="certificados" class="container">
+    <h2>Certificados</h2>
+    <div class="filtros-certificados">
+      <button onclick="filtrarCertificados('todos')">Todos</button>
+      <button onclick="filtrarCertificados('Programação')">Programação</button>
+      <button onclick="filtrarCertificados('engenharia')">Engenharia de Dados</button>
+      <button onclick="filtrarCertificados('softskills')">Soft Skills</button>
+    </div>
+    <div class="certificados-galeria">
+      <div class="certificado Programação"><embed src="src/Algoritmos e Lógica de Programação - karolanne rafaela costa de lima santos (1).pdf" type="application/pdf" /><h3>Algoritmos e Lógica</h3></div>
+      <div class="certificado engenharia"><embed src="src/Big Data com Hadoop - Fundamentos.pdf" type="application/pdf" /><h3>Big Data com Hadoop</h3></div>
+      <div class="certificado engenharia"><embed src="src/BIG DATA.pdf" type="application/pdf" /><h3>Big Data</h3></div>
+      <div class="certificado engenharia"><embed src="src/Conhecendo o R Análise de Dados na Prática.pdf" type="application/pdf" /><h3>Conhecendo R</h3></div>
+      <div class="certificado engenharia"><embed src="src/Data Warehouse - Fundamentos e Implementação.pdf" type="application/pdf" /><h3>Data Warehouse</h3></div>
+      <div class="certificado engenharia"><embed src="src/ETL na Prática.pdf" type="application/pdf" /><h3>ETL na Prática</h3></div>
+      <div class="certificado engenharia"><embed src="src/Formação Engenharia de Dados.pdf" type="application/pdf" /><h3>Formação Eng. de Dados</h3></div>
+      <div class="certificado engenharia"><embed src="src/Fundamentos de Machine Learning na Prática.pdf" type="application/pdf" /><h3>Machine Learning</h3></div>
+      <div class="certificado softskills"><embed src="src/Jira Software - Gestão Ágil de Projetos e Operações.pdf" type="application/pdf" /><h3>Jira Software</h3></div>
+      <div class="certificado softskills"><embed src="src/Liderança - O Essencial para o Líder.pdf" type="application/pdf" /><h3>Liderança</h3></div>
+      <div class="certificado Programação"><embed src="src/MongoDB - Introdução Prática.pdf" type="application/pdf" /><h3>MongoDB</h3></div>
+      <div class="certificado engenharia"><embed src="src/Power BI 2019 (online).pdf" type="application/pdf" /><h3>Power BI</h3></div>
+      <div class="certificado softskills"><embed src="src/Produtividade e Gestão do Tempo.pdf" type="application/pdf" /><h3>Gestão do Tempo</h3></div>
+      <div class="certificado engenharia"><embed src="src/SQL 2016.pdf" type="application/pdf" /><h3>SQL</h3></div>
+      <div class="certificado engenharia"><embed src="src/Projeto de Data Science - Da Extração ao Machine Learning.pdf" type="application/pdf" /><h3>Projeto DS</h3></div>
+    </div>
+  </section>
+
+  <footer id="contato">
+    <p><strong>Telefone:</strong> (11) 91570-0707</p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/karolanne-lima-santos-348628341" target="_blank">/karolanne-lima-santos</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/lkaroolanne/" target="_blank">/lkaroolanne</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/lkaroolanne" target="_blank">/lkaroolanne</a></p>
+    <p><strong>E-mail:</strong> <a href="mailto:karolanne.developer@gmail.com">karolanne.developer@gmail.com</a></p>
+  </footer>
+
+  <script>
+    function filtrarProjetos(categoria) {
+      const projetos = document.querySelectorAll('.card');
+      projetos.forEach(p => {
+        p.style.display = categoria === 'todos' || p.classList.contains(categoria) ? 'block' : 'none';
+      });
+    }
+
+    function filtrarCertificados(categoria) {
+      const certificados = document.querySelectorAll('.certificado');
+      certificados.forEach(c => {
+        c.style.display = categoria === 'todos' || c.classList.contains(categoria) ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
