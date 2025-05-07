@@ -75,6 +75,8 @@ header nav a {
   line-height: 1.6;
 }
 
+
+
 /* Filtros e Projetos */
 #filtros {
   text-align: center;
@@ -209,9 +211,10 @@ footer {
   box-shadow: 0 0 12px #00ff8860;
 }
 
-.certificado embed {
+.certificado img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 0.5rem;
   box-shadow: 0 4px 12px rgba(0, 255, 136, 0.15);
@@ -221,4 +224,27 @@ footer {
   color: #00ff88;
   font-size: 1rem;
   margin-top: 0.5rem;
+}
+
+/* Botão de Chat Flutuante */
+.chatbot-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00ff88;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.chatbot-button:hover {
+  background-color: #00cc6e;
+  transform: scale(1.1);
 }
